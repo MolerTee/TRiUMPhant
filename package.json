@@ -1,0 +1,21 @@
+{
+  "name": "trumped",
+  "version": "1.0.0",
+  "description": "Card Game called Trumps , topic is cities",
+  "main": "app.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha client/src/models/specs",
+    "start": "nodemon server.js"
+  },
+  "author": "Andy, Lorna, Graeme, Steven",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.1",
+    "mongodb": "^2.2.24"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0",
+    "nodemon": "^1.11.0"
+  }
+}
